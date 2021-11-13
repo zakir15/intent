@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Intent2">
         <activity
+            android:name=".MoveForResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".MoveActivityWithData"
             android:exported="false" />
         <activity android:name=".MoveWithDataAktivity" />
